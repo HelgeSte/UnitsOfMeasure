@@ -20,3 +20,4 @@ namespace UnitsOfMeasure
             SameUnit_uom = sameUnit_uom;
         }
     }
+}

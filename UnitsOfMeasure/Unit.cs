@@ -4,11 +4,13 @@ namespace UnitsOfMeasure
 {
     public class Units
     {
-        // ToDo: Add base units to this class, since the same unit authorites can have different descriptions
         public int UomId { get; set;  }
+        public string BaseUnit_BasicAuthority { get; set; }
+        public string BaseUnit_Description { get; set; }
         public string CatalogName { get; set; }
         public string CatalogSymbol_isExplicit { get; set; }
         public string CatalogSymbol_text { get; set; }
+        // ToDo: Create a class for Conversions
         public string ConversionToBaseUnit_Factor { get; set; }
         public string ConversionToBaseUnit_Formula_A { get; set; }
         public string ConversionToBaseUnit_Formula_B { get; set; }
