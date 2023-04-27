@@ -22,3 +22,7 @@ If I don't do this, It'll be more difficult to code for these types, and I will 
 
 The Base Units and Customary units could have been split into 2 new tables, but I don't think it's necessary. I think it should be easy to code a test
 for this. 
+
+# Trying to find info on how to use Entity Framework to split data:
+1. https://www.youtube.com/watch?v=kGdUtm7UBxc
+2. https://learn.microsoft.com/en-us/ef/core/modeling/table-splitting
