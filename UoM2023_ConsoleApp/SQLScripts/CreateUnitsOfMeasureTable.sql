@@ -1,4 +1,5 @@
 ﻿CREATE TABLE UnitsOfMeasure ( 
+	UomId int IDENTITY(1,1) PRIMARY KEY,
 	Name VARCHAR(70),
 	QuantityType_0 VARCHAR(200),
 	DimensionalClass VARCHAR(20),
