@@ -9,13 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypeEntityProject", "P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UoM2023_ConsoleApp", "UoM2023_ConsoleApp\UoM2023_ConsoleApp.csproj", "{E45247A9-AC92-443C-93A2-4B887C0742CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplittingData", "SplittingData\SplittingData.csproj", "{7CDAD0E3-EFDE-426F-92C7-9539C6A61F9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SplittingData", "SplittingData\SplittingData.csproj", "{7CDAD0E3-EFDE-426F-92C7-9539C6A61F9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees_CreateTable", "Employees_CreateTable\Employees_CreateTable.csproj", "{28CA4EC2-947F-4EFB-8EAE-55FEFAE878DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employees_CreateTable", "Employees_CreateTable\Employees_CreateTable.csproj", "{28CA4EC2-947F-4EFB-8EAE-55FEFAE878DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees_ReverseEngineering", "Employees_ReverseEngineering\Employees_ReverseEngineering.csproj", "{FC7DE903-58C6-4093-998C-8F2CADD10644}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employees_ReverseEngineering", "Employees_ReverseEngineering\Employees_ReverseEngineering.csproj", "{FC7DE903-58C6-4093-998C-8F2CADD10644}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees_SplitTable", "Employees_SplitTable\Employees_SplitTable.csproj", "{1542F451-39B8-4762-8536-3B9133482CDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employees_SplitTable", "Employees_SplitTable\Employees_SplitTable.csproj", "{1542F451-39B8-4762-8536-3B9133482CDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uom2023", "Uom2023\Uom2023.csproj", "{6F103247-4581-4FB3-9475-9699471D484C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{1542F451-39B8-4762-8536-3B9133482CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1542F451-39B8-4762-8536-3B9133482CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1542F451-39B8-4762-8536-3B9133482CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F103247-4581-4FB3-9475-9699471D484C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F103247-4581-4FB3-9475-9699471D484C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F103247-4581-4FB3-9475-9699471D484C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F103247-4581-4FB3-9475-9699471D484C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

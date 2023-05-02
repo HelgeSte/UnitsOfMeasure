@@ -1,0 +1,32 @@
+﻿CREATE TABLE ConversionToBaseUnit (
+    ConversionId int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    ConversionToBaseUnit_Factor varchar(100),
+    ConversionToBaseUnit__baseUnit varchar(100),
+    ConversionToBaseUnit_Fraction_Numerator varchar(100),
+    ConversionToBaseUnit_Fraction_Denominator varchar(100),
+    ConversionToBaseUnit_Formula_A varchar(50),
+    ConversionToBaseUnit_Formula_B varchar(50),
+    ConversionToBaseUnit_Formula_C varchar(50),
+    ConversionToBaseUnit_Formula_D varchar(50),
+    UomId int FOREIGN KEY REFERENCES UnitsOfMeasure(UomId)
+); 
+
+INSERT INTO ConversionToBaseUnit (
+    ConversionToBaseUnit_Factor, 
+    ConversionToBaseUnit__baseUnit,
+    ConversionToBaseUnit_Fraction_Numerator,
+    ConversionToBaseUnit_Fraction_Denominator,
+    ConversionToBaseUnit_Formula_A,
+    ConversionToBaseUnit_Formula_B,
+    ConversionToBaseUnit_Formula_C,
+    ConversionToBaseUnit_Formula_D)
+SELECT 
+    UnitsOfMeasure.ConversionToBaseUnit_Factor, 
+    UnitsOfMeasure.ConversionToBaseUnit__baseUnit,
+    UnitsOfMeasure.ConversionToBaseUnit_Fraction_Numerator,
+    UnitsOfMeasure.ConversionToBaseUnit_Fraction_Denominator,
+    UnitsOfMeasure.ConversionToBaseUnit_Formula_A,
+    UnitsOfMeasure.ConversionToBaseUnit_Formula_B,
+    UnitsOfMeasure.ConversionToBaseUnit_Formula_C,
+    UnitsOfMeasure.ConversionToBaseUnit_Formula_D
+FROM UnitsOfMeasure
