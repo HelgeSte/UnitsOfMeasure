@@ -1,8 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-/*using Uom2023.Data;
+﻿using Uom2023.Data;
 using Uom2023.Models;
-
 
 
 using Uom2023Context context = new Uom2023Context();
@@ -37,4 +34,4 @@ foreach(ConversionToBaseUnit ctobu in context.ConversionToBaseUnits)
     if (i >= 40)
         break;
     i++;
-}*/
+}
