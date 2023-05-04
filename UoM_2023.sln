@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uom2023", "Uom2023\Uom2023.csproj", "{6F103247-4581-4FB3-9475-9699471D484C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uom2023", "Uom2023\Uom2023.csproj", "{6F103247-4581-4FB3-9475-9699471D484C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UomLibrary", "UomLibrary\UomLibrary.csproj", "{8D0564E8-570B-4CB2-8505-77A6A689FD7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUomLibrary", "TestUomLibrary\TestUomLibrary.csproj", "{BB40D2EF-5BE8-4F95-978C-5416ECFC03FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{6F103247-4581-4FB3-9475-9699471D484C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F103247-4581-4FB3-9475-9699471D484C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F103247-4581-4FB3-9475-9699471D484C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0564E8-570B-4CB2-8505-77A6A689FD7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0564E8-570B-4CB2-8505-77A6A689FD7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0564E8-570B-4CB2-8505-77A6A689FD7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0564E8-570B-4CB2-8505-77A6A689FD7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB40D2EF-5BE8-4F95-978C-5416ECFC03FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB40D2EF-5BE8-4F95-978C-5416ECFC03FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB40D2EF-5BE8-4F95-978C-5416ECFC03FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB40D2EF-5BE8-4F95-978C-5416ECFC03FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
